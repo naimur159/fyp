@@ -8,7 +8,7 @@ Route::get('/', function () {
     return view('test');
 });
 
-// Route::get('/users', function() {
-//    return "Hello everyone";
-//}); 
+Route::get('/users', function() {
+    return "Hello world";
+}); 
 
